@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* GENERAL STYLES */
+html {
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* || Header style */
+header {
+    top: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.hero_list_item {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 2rem;
+    margin: 1.5rem;
+    padding-bottom: .5rem;
+}
+.hero_list a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.hero_img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main h2 {
+    margin: 1.5rem 0 0.5rem 0;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.icon .tribute {
+    background-color: darkgreen; 
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-color: darkgreen;
+}
+
+h1, h2{
+    font-weight: 100;
+}
+
+h2 {
+    margin-top: 0.5rem;
+}
+
+body{
+    font: 1.5 rem sans-serif;
+    min-height: 100vh;
+    justify-content: justify;
+}
+
+p {
+    line-height: 1.5;
+    line-break: 1.2;
+    color: rgb(36, 36, 36);
+}
+
+.legacy {
+    width: 100%;
+}
+.oba_pictures img{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto ;
+    width: 300px;
+    height: 400px;
+}
+
+/* || Footer styles */
+footer{
+    background-color: darkgreen; 
+    bottom: 0;
+    padding: 0.02rem;
+}
+
+.footer a{ 
+    display: inline-block;
+    margin: 0 auto;
+    color: aliceblue;
+    text-decoration: none;
+   margin: 0.5rem;
+}
+
+span {
+    color: aliceblue;
+}
+
+
+
+
+
